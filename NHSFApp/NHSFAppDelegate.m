@@ -7,13 +7,61 @@
 //
 
 #import "NHSFAppDelegate.h"
+#import "Parse/Parse.h"
 
 @implementation NHSFAppDelegate
+
+- (void)application:(UIApplication *)application
+didReceiveRemoteNotification:(NSDictionary *)userInfo {
+    
+    [PFPush handlePush:userInfo];
+}
+
+
+- (void)application:(UIApplication *)application
+didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)newDeviceToken {
+    
+    // Store the deviceToken in the current installation and save it to Parse.
+    PFInstallation *currentInstallation = [PFInstallation currentInstallation];
+    [currentInstallation setDeviceTokenFromData:newDeviceToken];
+    [currentInstallation saveInBackground];
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [Parse setApplicationId:@"BHjlrcmscfRYwgbLTAfTWcZc2y3VnhnyQ2mcH57w"
+                  clientKey:@"oi3GxqMQWa0caB6f9lYG8gpYXLAhCmTTEXuyguAJ"];
+    
+    // Initialize Parse's Facebook Utilities singleton. This uses the FacebookAppID we specified in our App bundle's plist.
+	[PFFacebookUtils initializeFacebook];
+    
+     [[UIApplication sharedApplication] registerForRemoteNotificationTypes:UIRemoteNotificationTypeBadge|UIRemoteNotificationTypeAlert|UIRemoteNotificationTypeSound];
+    
+    //Changing the colour of the navigation bar
+    [[UINavigationBar appearance] setBarTintColor:[UIColor orangeColor]];
+    
+    //Setting the colour of the navigation text and setting the navigation text font
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:245.0/255.0 green:245.0/255.0 blue:245.0/255.0 alpha:1.0], NSForegroundColorAttributeName,[UIFont fontWithName:@"HelveticaNeue" size: 20.0], NSFontAttributeName, nil]];
+    
+    //Setting the colour for the back button to white
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+
+    
     return YES;
+}
+
+- (BOOL) application:(UIApplication *)application
+	   handleOpenURL:(NSURL *)url {
+    return [PFFacebookUtils handleOpenURL:url];
+}
+- (BOOL)application:(UIApplication *)application
+			openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+		 annotation:(id)annotation {
+    return [PFFacebookUtils handleOpenURL:url];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

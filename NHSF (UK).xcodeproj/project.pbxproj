@@ -1,0 +1,1239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		982042A446864530B05851BB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4324969762634B68B865856C /* libPods.a */; };
+		F50A3ACB1973C8DD00791E87 /* NHSFPostersAndQuotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50A3ACA1973C8DD00791E87 /* NHSFPostersAndQuotesViewController.m */; };
+		F50A3ACE1973D12B00791E87 /* NHSFFreshersPackTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50A3ACD1973D12B00791E87 /* NHSFFreshersPackTableViewController.m */; };
+		F50A3AD21973D47300791E87 /* WALL PLANNER 2013.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F50A3AD11973D47300791E87 /* WALL PLANNER 2013.jpg */; };
+		F50A3AD51973D81B00791E87 /* NHSFHumMagazineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50A3AD41973D81B00791E87 /* NHSFHumMagazineViewController.m */; };
+		F50A3AD81974AE3100791E87 /* NHSFWallPlannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50A3AD71974AE3100791E87 /* NHSFWallPlannerViewController.m */; };
+		F50A3ADA1974AED600791E87 /* WALL PLANNER 2013.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F50A3AD91974AED600791E87 /* WALL PLANNER 2013.pdf */; };
+		F52A5970197AA228000F9EF7 /* NHSFSelfieBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F52A596F197AA228000F9EF7 /* NHSFSelfieBackground.jpg */; };
+		F52A5973197AA2CF000F9EF7 /* NHSFSewaSelfieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52A5972197AA2CF000F9EF7 /* NHSFSewaSelfieViewController.m */; };
+		F52A5975197AA547000F9EF7 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52A5974197AA547000F9EF7 /* Social.framework */; };
+		F54C50411971EF8800BF3300 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54C50401971EF8800BF3300 /* AddressBook.framework */; };
+		F54C50431971EF8D00BF3300 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54C50421971EF8D00BF3300 /* CoreLocation.framework */; };
+		F54C50451971EF9400BF3300 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54C50441971EF9400BF3300 /* MapKit.framework */; };
+		F54C5047197201F000BF3300 /* NHSFAppBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F54C5046197201F000BF3300 /* NHSFAppBackground.jpg */; };
+		F564D2B0197E948F00A8C9CD /* NHSF Logo 2014 Orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F564D2AF197E948F00A8C9CD /* NHSF Logo 2014 Orange.jpg */; };
+		F571D088197BC6780074D7A4 /* NHSFEventsOnAPlateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F571D087197BC6780074D7A4 /* NHSFEventsOnAPlateViewController.m */; };
+		F58BCF8319733895008DAFF2 /* NHSFImportantDatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58BCF8219733895008DAFF2 /* NHSFImportantDatesViewController.m */; };
+		F58BCF851973391D008DAFF2 /* Dates for the diary.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F58BCF841973391D008DAFF2 /* Dates for the diary.pdf */; };
+		F58BCF8719733CCE008DAFF2 /* Must Know Mantras.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F58BCF8619733CCE008DAFF2 /* Must Know Mantras.pdf */; };
+		F58BCF8A19733D11008DAFF2 /* NHSFMustKnowMantrasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58BCF8919733D11008DAFF2 /* NHSFMustKnowMantrasViewController.m */; };
+		F58BCF8D19733FA2008DAFF2 /* NHSFMustReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58BCF8C19733FA2008DAFF2 /* NHSFMustReadViewController.m */; };
+		F58BCF8F197342D5008DAFF2 /* NHSFAppBackground2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F58BCF8E197342D5008DAFF2 /* NHSFAppBackground2.jpg */; };
+		F58BCF91197343D8008DAFF2 /* bhagavadgita.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F58BCF90197343D8008DAFF2 /* bhagavadgita.jpg */; };
+		F58BCF93197346B1008DAFF2 /* Hanuman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F58BCF92197346B1008DAFF2 /* Hanuman.jpg */; };
+		F59026D51978649600BCEE37 /* NHSFSewaCampaignsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59026D41978649600BCEE37 /* NHSFSewaCampaignsTableViewController.m */; };
+		F59026DB19786C3C00BCEE37 /* NBDD 2013 Presentation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F59026DA19786C3C00BCEE37 /* NBDD 2013 Presentation.pdf */; };
+		F59026DE19786FF400BCEE37 /* Sewa at Universities.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F59026DC19786FF400BCEE37 /* Sewa at Universities.pdf */; };
+		F59026DF19786FF400BCEE37 /* Ultimate Sewa Guide.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F59026DD19786FF400BCEE37 /* Ultimate Sewa Guide.pdf */; };
+		F59026E2197870E700BCEE37 /* NHSFUniversitySewaGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59026E1197870E700BCEE37 /* NHSFUniversitySewaGuideViewController.m */; };
+		F59026E71978755900BCEE37 /* SEWA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F59026E61978755900BCEE37 /* SEWA.jpg */; };
+		F5A2182B196F439400A9628C /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A2182A196F439400A9628C /* Event.m */; };
+		F5A2182E196F460300A9628C /* NHSFEventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A2182D196F460300A9628C /* NHSFEventDetailViewController.m */; };
+		F5C5612B196971B200E0E0C5 /* NHSFAffiliatedChapterData.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C5612A196971B200E0E0C5 /* NHSFAffiliatedChapterData.m */; };
+		F5C5618219697E2F00E0E0C5 /* NHSFChapterObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C5618119697E2F00E0E0C5 /* NHSFChapterObject.m */; };
+		F5C561AF1969909700E0E0C5 /* NHSF Aston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561851969909700E0E0C5 /* NHSF Aston.jpg */; };
+		F5C561B01969909700E0E0C5 /* NHSF BCU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561861969909700E0E0C5 /* NHSF BCU.jpg */; };
+		F5C561B11969909700E0E0C5 /* NHSF Birmingham.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561871969909700E0E0C5 /* NHSF Birmingham.jpg */; };
+		F5C561B21969909700E0E0C5 /* NHSF BPP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561881969909700E0E0C5 /* NHSF BPP.jpg */; };
+		F5C561B31969909700E0E0C5 /* NHSF Bradford.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561891969909700E0E0C5 /* NHSF Bradford.jpg */; };
+		F5C561B41969909700E0E0C5 /* NHSF Bristol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C5618A1969909700E0E0C5 /* NHSF Bristol.jpg */; };
+		F5C561B51969909700E0E0C5 /* NHSF Brunel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C5618B1969909700E0E0C5 /* NHSF Brunel.jpg */; };
+		F5C561B61969909700E0E0C5 /* NHSF Cardiff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C5618C1969909700E0E0C5 /* NHSF Cardiff.jpg */; };
+		F5C561B71969909700E0E0C5 /* NHSF City.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C5618D1969909700E0E0C5 /* NHSF City.jpg */; };
+		F5C561B81969909700E0E0C5 /* NHSF Coventry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C5618E1969909700E0E0C5 /* NHSF Coventry.jpg */; };
+		F5C561B91969909700E0E0C5 /* NHSF DMU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C5618F1969909700E0E0C5 /* NHSF DMU.jpg */; };
+		F5C561BA1969909700E0E0C5 /* NHSF Greenwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561901969909700E0E0C5 /* NHSF Greenwich.jpg */; };
+		F5C561BB1969909700E0E0C5 /* NHSF Hertfordshire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561911969909700E0E0C5 /* NHSF Hertfordshire.jpg */; };
+		F5C561BC1969909700E0E0C5 /* NHSF Huddersfield.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561921969909700E0E0C5 /* NHSF Huddersfield.jpg */; };
+		F5C561BD1969909700E0E0C5 /* NHSF Hull.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561931969909700E0E0C5 /* NHSF Hull.jpg */; };
+		F5C561BE1969909700E0E0C5 /* NHSF Imperial.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561941969909700E0E0C5 /* NHSF Imperial.jpg */; };
+		F5C561BF1969909700E0E0C5 /* NHSF KCL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561951969909700E0E0C5 /* NHSF KCL.jpg */; };
+		F5C561C01969909700E0E0C5 /* NHSF Keele.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561961969909700E0E0C5 /* NHSF Keele.jpg */; };
+		F5C561C11969909700E0E0C5 /* NHSF Kent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561971969909700E0E0C5 /* NHSF Kent.jpg */; };
+		F5C561C21969909700E0E0C5 /* NHSF Kingston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561981969909700E0E0C5 /* NHSF Kingston.jpg */; };
+		F5C561C31969909700E0E0C5 /* NHSF Leeds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561991969909700E0E0C5 /* NHSF Leeds.jpg */; };
+		F5C561C41969909700E0E0C5 /* NHSF Leicester.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C5619A1969909700E0E0C5 /* NHSF Leicester.jpg */; };
+		F5C561C51969909700E0E0C5 /* NHSF Liverpool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C5619B1969909700E0E0C5 /* NHSF Liverpool.jpg */; };
+		F5C561C61969909700E0E0C5 /* NHSF Loughborough.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C5619C1969909700E0E0C5 /* NHSF Loughborough.jpg */; };
+		F5C561C71969909700E0E0C5 /* NHSF LSE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C5619D1969909700E0E0C5 /* NHSF LSE.jpg */; };
+		F5C561C81969909700E0E0C5 /* NHSF Manchester.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C5619E1969909700E0E0C5 /* NHSF Manchester.jpg */; };
+		F5C561C91969909700E0E0C5 /* NHSF Medway.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C5619F1969909700E0E0C5 /* NHSF Medway.jpg */; };
+		F5C561CA1969909700E0E0C5 /* NHSF Northampton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561A01969909700E0E0C5 /* NHSF Northampton.jpg */; };
+		F5C561CB1969909700E0E0C5 /* NHSF Northumbria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561A11969909700E0E0C5 /* NHSF Northumbria.jpg */; };
+		F5C561CC1969909700E0E0C5 /* NHSF Nottingham.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561A21969909700E0E0C5 /* NHSF Nottingham.jpg */; };
+		F5C561CD1969909700E0E0C5 /* NHSF NTU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561A31969909700E0E0C5 /* NHSF NTU.jpg */; };
+		F5C561CE1969909700E0E0C5 /* NHSF Plymouth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561A41969909700E0E0C5 /* NHSF Plymouth.jpg */; };
+		F5C561CF1969909700E0E0C5 /* NHSF Portsmouth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561A51969909700E0E0C5 /* NHSF Portsmouth.jpg */; };
+		F5C561D01969909700E0E0C5 /* NHSF QMUL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561A61969909700E0E0C5 /* NHSF QMUL.jpg */; };
+		F5C561D11969909700E0E0C5 /* NHSF Reading.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561A71969909700E0E0C5 /* NHSF Reading.jpg */; };
+		F5C561D21969909700E0E0C5 /* NHSF Roehampton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561A81969909700E0E0C5 /* NHSF Roehampton.jpg */; };
+		F5C561D31969909700E0E0C5 /* NHSF SGUL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561A91969909700E0E0C5 /* NHSF SGUL.jpg */; };
+		F5C561D41969909700E0E0C5 /* NHSF Sheffield.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561AA1969909700E0E0C5 /* NHSF Sheffield.jpg */; };
+		F5C561D51969909700E0E0C5 /* NHSF Southampton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561AB1969909700E0E0C5 /* NHSF Southampton.jpg */; };
+		F5C561D61969909700E0E0C5 /* NHSF UEA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561AC1969909700E0E0C5 /* NHSF UEA.jpg */; };
+		F5C561D71969909700E0E0C5 /* NHSF Warwick.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561AD1969909700E0E0C5 /* NHSF Warwick.jpg */; };
+		F5C561D81969909700E0E0C5 /* NHSF Westminster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561AE1969909700E0E0C5 /* NHSF Westminster.jpg */; };
+		F5C561DB196994A400E0E0C5 /* NHSFChapterImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C561DA196994A400E0E0C5 /* NHSFChapterImageViewController.m */; };
+		F5C561DE1969E49200E0E0C5 /* NHSF Brighton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561DC1969E49200E0E0C5 /* NHSF Brighton.jpg */; };
+		F5C561DF1969E49200E0E0C5 /* NHSF SOAS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561DD1969E49200E0E0C5 /* NHSF SOAS.jpg */; };
+		F5C561E2196ADC8700E0E0C5 /* NHSFChapterDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C561E1196ADC8700E0E0C5 /* NHSFChapterDataViewController.m */; };
+		F5C561E4196B3B2D00E0E0C5 /* NHSF York.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561E3196B3B2D00E0E0C5 /* NHSF York.jpg */; };
+		F5C561E6196B3C4000E0E0C5 /* NHSF UWE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561E5196B3C4000E0E0C5 /* NHSF UWE.jpg */; };
+		F5C561E8196B3C5C00E0E0C5 /* NHSF Exeter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C561E7196B3C5C00E0E0C5 /* NHSF Exeter.jpg */; };
+		F5C6F730197F0825006BCCFD /* FBLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = F5C6F72F197F0825006BCCFD /* FBLogin.png */; };
+		F5C6F732197F0838006BCCFD /* FBShare.png in Resources */ = {isa = PBXBuildFile; fileRef = F5C6F731197F0838006BCCFD /* FBShare.png */; };
+		F5C739C0197C0273005E94B5 /* NHSF (UK) National Charity.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5C739BF197C0273005E94B5 /* NHSF (UK) National Charity.pdf */; };
+		F5C739C3197C029B005E94B5 /* NHSFNationalCharityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C739C2197C029B005E94B5 /* NHSFNationalCharityViewController.m */; };
+		F5C739C6197C0522005E94B5 /* NHSFSewaInspirationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C739C5197C0522005E94B5 /* NHSFSewaInspirationTableViewController.m */; };
+		F5C739C9197C0638005E94B5 /* NHSFSewaVideosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C739C8197C0638005E94B5 /* NHSFSewaVideosTableViewController.m */; };
+		F5C739CC197C06CA005E94B5 /* NHSFWaterChangesEverythingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C739CB197C06CA005E94B5 /* NHSFWaterChangesEverythingViewController.m */; };
+		F5C739CE197C0911005E94B5 /* Water.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C739CD197C0911005E94B5 /* Water.jpg */; };
+		F5C739D0197C0B35005E94B5 /* IF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C739CF197C0B35005E94B5 /* IF.jpg */; };
+		F5C739D2197C0D14005E94B5 /* Dabba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C739D1197C0D14005E94B5 /* Dabba.jpg */; };
+		F5C739D4197C0DE6005E94B5 /* Homeless.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C739D3197C0DE6005E94B5 /* Homeless.jpg */; };
+		F5C739D6197C0ED1005E94B5 /* ShareCareJoy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C739D5197C0ED1005E94B5 /* ShareCareJoy.jpg */; };
+		F5C739D8197C0F7F005E94B5 /* IndiasPoor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C739D7197C0F7F005E94B5 /* IndiasPoor.jpg */; };
+		F5C739DA197C1188005E94B5 /* RachelBeckwith.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C739D9197C1188005E94B5 /* RachelBeckwith.jpg */; };
+		F5C739DC197C1240005E94B5 /* A Truly Selfless Being.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C739DB197C1240005E94B5 /* A Truly Selfless Being.jpg */; };
+		F5C739DE197C138A005E94B5 /* ShareCareJoy2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C739DD197C138A005E94B5 /* ShareCareJoy2.jpg */; };
+		F5C739E1197C14C8005E94B5 /* NHSFEnoughFoodForEveryoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C739E0197C14C8005E94B5 /* NHSFEnoughFoodForEveryoneViewController.m */; };
+		F5C739E4197C1657005E94B5 /* NHSFShareMyDabbaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C739E3197C1657005E94B5 /* NHSFShareMyDabbaViewController.m */; };
+		F5C739E7197C166A005E94B5 /* NHSFMakeTheHomelessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C739E6197C166A005E94B5 /* NHSFMakeTheHomelessViewController.m */; };
+		F5C739EA197C17EF005E94B5 /* NHSFShareCareJoyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C739E9197C17EF005E94B5 /* NHSFShareCareJoyViewController.m */; };
+		F5C739ED197C17FF005E94B5 /* NHSFIndiasPoorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C739EC197C17FF005E94B5 /* NHSFIndiasPoorViewController.m */; };
+		F5C739F0197C19F3005E94B5 /* NHSFRachelBeckwithViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C739EF197C19F3005E94B5 /* NHSFRachelBeckwithViewController.m */; };
+		F5C739F3197C1A15005E94B5 /* NHSFATrulySelflessBeingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C739F2197C1A15005E94B5 /* NHSFATrulySelflessBeingViewController.m */; };
+		F5D9565119753C9800CB62FD /* NHSF (UK) App Icon58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9564E19753C9800CB62FD /* NHSF (UK) App Icon58x58.png */; };
+		F5D9565219753C9800CB62FD /* NHSF (UK) App Icon80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9564F19753C9800CB62FD /* NHSF (UK) App Icon80x80.png */; };
+		F5D9565319753C9800CB62FD /* NHSF (UK) App Icon120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9565019753C9800CB62FD /* NHSF (UK) App Icon120x120.png */; };
+		F5D956BA1976C2CB00CB62FD /* NHSFScripturesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D956B91976C2CB00CB62FD /* NHSFScripturesTableViewController.m */; };
+		F5D956BD1976C4C500CB62FD /* NHSFBhagvadGitaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D956BC1976C4C500CB62FD /* NHSFBhagvadGitaViewController.m */; };
+		F5D956BF1976C58200CB62FD /* Bhagavad Gita.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5D956BE1976C58200CB62FD /* Bhagavad Gita.pdf */; };
+		F5D956C11976C66D00CB62FD /* VishvaRoop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5D956C01976C66D00CB62FD /* VishvaRoop.jpg */; };
+		F5D956C41976D17B00CB62FD /* NHSFHinduismMadeSimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D956C31976D17B00CB62FD /* NHSFHinduismMadeSimpleViewController.m */; };
+		F5D956C71976E08600CB62FD /* NHSFAboutUsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D956C61976E08600CB62FD /* NHSFAboutUsTableViewController.m */; };
+		F5D956CD197710B700CB62FD /* NHSFIntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D956CC197710B700CB62FD /* NHSFIntroductionViewController.m */; };
+		F5D956D01977244200CB62FD /* NHSFNatcomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D956CF1977244200CB62FD /* NHSFNatcomTableViewController.m */; };
+		F5D956D219772E4700CB62FD /* About Us Page Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5D956D119772E4700CB62FD /* About Us Page Logo.jpg */; };
+		F5D956D4197730B300CB62FD /* About Us Image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5D956D3197730B300CB62FD /* About Us Image.jpg */; };
+		F5DEC14B197F15C600CACC1A /* NHSFFBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DEC14A197F15C600CACC1A /* NHSFFBLoginViewController.m */; };
+		F5DEC14E197F18AC00CACC1A /* Comms.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DEC14D197F18AC00CACC1A /* Comms.m */; };
+		F5DEC154197F1CA400CACC1A /* NHSFImageWallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DEC153197F1CA400CACC1A /* NHSFImageWallViewController.m */; };
+		F5DEC157197F1FB400CACC1A /* UIImage+Scaling.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DEC156197F1FB400CACC1A /* UIImage+Scaling.m */; };
+		F5DEC15A197F206E00CACC1A /* NHSFUploadImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DEC159197F206E00CACC1A /* NHSFUploadImageViewController.m */; };
+		F5DEC15E197F29E800CACC1A /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F5DEC15D197F29E800CACC1A /* FacebookSDKResources.bundle */; };
+		F5DEC175197FC08400CACC1A /* NSOperationQueue+SharedQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DEC174197FC08400CACC1A /* NSOperationQueue+SharedQueue.m */; };
+		F5DEC178197FC11300CACC1A /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DEC177197FC11300CACC1A /* DataStore.m */; };
+		F5DF367F1973248F00AF1365 /* NHSFPrayersSectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DF367E1973248F00AF1365 /* NHSFPrayersSectionTableViewController.m */; };
+		F5DF3682197325C200AF1365 /* NHSFHanumanChalisaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DF3681197325C200AF1365 /* NHSFHanumanChalisaViewController.m */; };
+		F5DF3684197326C300AF1365 /* Hanuman Chalisa Colour.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5DF3683197326C300AF1365 /* Hanuman Chalisa Colour.pdf */; };
+		F5DF36871973299E00AF1365 /* Om Jai Jagdish Aarti.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5DF36851973299E00AF1365 /* Om Jai Jagdish Aarti.pdf */; };
+		F5DF36881973299E00AF1365 /* Sangeet of the Soul.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5DF36861973299E00AF1365 /* Sangeet of the Soul.pdf */; };
+		F5DF368B19732A0B00AF1365 /* NHSFOmJaiJagdishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DF368A19732A0B00AF1365 /* NHSFOmJaiJagdishViewController.m */; };
+		F5DF368E19732C4900AF1365 /* NHSFSangeetOfTheSoulViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DF368D19732C4900AF1365 /* NHSFSangeetOfTheSoulViewController.m */; };
+		F8A2072C195F10B0008FB2AF /* CampusTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A2072B195F10B0008FB2AF /* CampusTableViewController.m */; };
+		F8A20739195F1B33008FB2AF /* EventsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A20738195F1B33008FB2AF /* EventsTableViewController.m */; };
+		F8A2073C195F1EB9008FB2AF /* LearningTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A2073B195F1EB9008FB2AF /* LearningTableViewController.m */; };
+		F8A2073F195F2685008FB2AF /* SewaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A2073E195F2685008FB2AF /* SewaTableViewController.m */; };
+		F8B5ED1A195C6BCE00F97D9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B5ED19195C6BCE00F97D9A /* Foundation.framework */; };
+		F8B5ED1C195C6BCE00F97D9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B5ED1B195C6BCE00F97D9A /* CoreGraphics.framework */; };
+		F8B5ED1E195C6BCE00F97D9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B5ED1D195C6BCE00F97D9A /* UIKit.framework */; };
+		F8B5ED24195C6BCE00F97D9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8B5ED22195C6BCE00F97D9A /* InfoPlist.strings */; };
+		F8B5ED26195C6BCE00F97D9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B5ED25195C6BCE00F97D9A /* main.m */; };
+		F8B5ED2A195C6BCE00F97D9A /* NHSFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B5ED29195C6BCE00F97D9A /* NHSFAppDelegate.m */; };
+		F8B5ED2D195C6BCE00F97D9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B5ED2B195C6BCE00F97D9A /* Main.storyboard */; };
+		F8B5ED35195C6BCE00F97D9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B5ED34195C6BCE00F97D9A /* Images.xcassets */; };
+		F8B5ED3C195C6BCE00F97D9A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B5ED3B195C6BCE00F97D9A /* XCTest.framework */; };
+		F8B5ED3D195C6BCE00F97D9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B5ED19195C6BCE00F97D9A /* Foundation.framework */; };
+		F8B5ED3E195C6BCE00F97D9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B5ED1D195C6BCE00F97D9A /* UIKit.framework */; };
+		F8B5ED46195C6BCE00F97D9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8B5ED44195C6BCE00F97D9A /* InfoPlist.strings */; };
+		F8B5ED48195C6BCE00F97D9A /* NHSFAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B5ED47195C6BCE00F97D9A /* NHSFAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8B5ED3F195C6BCE00F97D9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8B5ED0E195C6BCE00F97D9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8B5ED15195C6BCE00F97D9A;
+			remoteInfo = NHSFApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4324969762634B68B865856C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A3356F6FB54BBCADF0A008 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		F50A3AC91973C8DD00791E87 /* NHSFPostersAndQuotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFPostersAndQuotesViewController.h; sourceTree = "<group>"; };
+		F50A3ACA1973C8DD00791E87 /* NHSFPostersAndQuotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFPostersAndQuotesViewController.m; sourceTree = "<group>"; };
+		F50A3ACC1973D12B00791E87 /* NHSFFreshersPackTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFFreshersPackTableViewController.h; sourceTree = "<group>"; };
+		F50A3ACD1973D12B00791E87 /* NHSFFreshersPackTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFFreshersPackTableViewController.m; sourceTree = "<group>"; };
+		F50A3AD11973D47300791E87 /* WALL PLANNER 2013.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WALL PLANNER 2013.jpg"; sourceTree = "<group>"; };
+		F50A3AD31973D81B00791E87 /* NHSFHumMagazineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NHSFHumMagazineViewController.h; path = NHSFApp/NHSFHumMagazineViewController.h; sourceTree = "<group>"; };
+		F50A3AD41973D81B00791E87 /* NHSFHumMagazineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NHSFHumMagazineViewController.m; path = NHSFApp/NHSFHumMagazineViewController.m; sourceTree = "<group>"; };
+		F50A3AD61974AE3100791E87 /* NHSFWallPlannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFWallPlannerViewController.h; sourceTree = "<group>"; };
+		F50A3AD71974AE3100791E87 /* NHSFWallPlannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFWallPlannerViewController.m; sourceTree = "<group>"; };
+		F50A3AD91974AED600791E87 /* WALL PLANNER 2013.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "WALL PLANNER 2013.pdf"; sourceTree = "<group>"; };
+		F52A596F197AA228000F9EF7 /* NHSFSelfieBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NHSFSelfieBackground.jpg; sourceTree = "<group>"; };
+		F52A5971197AA2CF000F9EF7 /* NHSFSewaSelfieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFSewaSelfieViewController.h; sourceTree = "<group>"; };
+		F52A5972197AA2CF000F9EF7 /* NHSFSewaSelfieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFSewaSelfieViewController.m; sourceTree = "<group>"; };
+		F52A5974197AA547000F9EF7 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		F54C50401971EF8800BF3300 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F54C50421971EF8D00BF3300 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F54C50441971EF9400BF3300 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F54C5046197201F000BF3300 /* NHSFAppBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = NHSFAppBackground.jpg; path = "../../../NHSF Chapters/NHSFAppBackground.jpg"; sourceTree = "<group>"; };
+		F564D2AF197E948F00A8C9CD /* NHSF Logo 2014 Orange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "NHSF Logo 2014 Orange.jpg"; sourceTree = "<group>"; };
+		F571D086197BC6780074D7A4 /* NHSFEventsOnAPlateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFEventsOnAPlateViewController.h; sourceTree = "<group>"; };
+		F571D087197BC6780074D7A4 /* NHSFEventsOnAPlateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFEventsOnAPlateViewController.m; sourceTree = "<group>"; };
+		F58BCF8119733895008DAFF2 /* NHSFImportantDatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFImportantDatesViewController.h; sourceTree = "<group>"; };
+		F58BCF8219733895008DAFF2 /* NHSFImportantDatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFImportantDatesViewController.m; sourceTree = "<group>"; };
+		F58BCF841973391D008DAFF2 /* Dates for the diary.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Dates for the diary.pdf"; sourceTree = "<group>"; };
+		F58BCF8619733CCE008DAFF2 /* Must Know Mantras.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Must Know Mantras.pdf"; sourceTree = "<group>"; };
+		F58BCF8819733D11008DAFF2 /* NHSFMustKnowMantrasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFMustKnowMantrasViewController.h; sourceTree = "<group>"; };
+		F58BCF8919733D11008DAFF2 /* NHSFMustKnowMantrasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFMustKnowMantrasViewController.m; sourceTree = "<group>"; };
+		F58BCF8B19733FA2008DAFF2 /* NHSFMustReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFMustReadViewController.h; sourceTree = "<group>"; };
+		F58BCF8C19733FA2008DAFF2 /* NHSFMustReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFMustReadViewController.m; sourceTree = "<group>"; };
+		F58BCF8E197342D5008DAFF2 /* NHSFAppBackground2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NHSFAppBackground2.jpg; sourceTree = "<group>"; };
+		F58BCF90197343D8008DAFF2 /* bhagavadgita.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bhagavadgita.jpg; sourceTree = "<group>"; };
+		F58BCF92197346B1008DAFF2 /* Hanuman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hanuman.jpg; sourceTree = "<group>"; };
+		F59026D31978649600BCEE37 /* NHSFSewaCampaignsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFSewaCampaignsTableViewController.h; sourceTree = "<group>"; };
+		F59026D41978649600BCEE37 /* NHSFSewaCampaignsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFSewaCampaignsTableViewController.m; sourceTree = "<group>"; };
+		F59026D919786AD500BCEE37 /* NBDD 2013 Presentation.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NBDD 2013 Presentation.pptx"; sourceTree = "<group>"; };
+		F59026DA19786C3C00BCEE37 /* NBDD 2013 Presentation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "NBDD 2013 Presentation.pdf"; sourceTree = "<group>"; };
+		F59026DC19786FF400BCEE37 /* Sewa at Universities.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Sewa at Universities.pdf"; sourceTree = "<group>"; };
+		F59026DD19786FF400BCEE37 /* Ultimate Sewa Guide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Ultimate Sewa Guide.pdf"; sourceTree = "<group>"; };
+		F59026E0197870E700BCEE37 /* NHSFUniversitySewaGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFUniversitySewaGuideViewController.h; sourceTree = "<group>"; };
+		F59026E1197870E700BCEE37 /* NHSFUniversitySewaGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFUniversitySewaGuideViewController.m; sourceTree = "<group>"; };
+		F59026E61978755900BCEE37 /* SEWA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SEWA.jpg; sourceTree = "<group>"; };
+		F5A21829196F439400A9628C /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		F5A2182A196F439400A9628C /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		F5A2182C196F460300A9628C /* NHSFEventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFEventDetailViewController.h; sourceTree = "<group>"; };
+		F5A2182D196F460300A9628C /* NHSFEventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFEventDetailViewController.m; sourceTree = "<group>"; };
+		F5C56129196971B200E0E0C5 /* NHSFAffiliatedChapterData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFAffiliatedChapterData.h; sourceTree = "<group>"; };
+		F5C5612A196971B200E0E0C5 /* NHSFAffiliatedChapterData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFAffiliatedChapterData.m; sourceTree = "<group>"; };
+		F5C5618019697E2F00E0E0C5 /* NHSFChapterObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFChapterObject.h; sourceTree = "<group>"; };
+		F5C5618119697E2F00E0E0C5 /* NHSFChapterObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFChapterObject.m; sourceTree = "<group>"; };
+		F5C561851969909700E0E0C5 /* NHSF Aston.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Aston.jpg"; path = "../../../NHSF Chapters/NHSF Aston.jpg"; sourceTree = "<group>"; };
+		F5C561861969909700E0E0C5 /* NHSF BCU.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF BCU.jpg"; path = "../../../NHSF Chapters/NHSF BCU.jpg"; sourceTree = "<group>"; };
+		F5C561871969909700E0E0C5 /* NHSF Birmingham.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Birmingham.jpg"; path = "../../../NHSF Chapters/NHSF Birmingham.jpg"; sourceTree = "<group>"; };
+		F5C561881969909700E0E0C5 /* NHSF BPP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF BPP.jpg"; path = "../../../NHSF Chapters/NHSF BPP.jpg"; sourceTree = "<group>"; };
+		F5C561891969909700E0E0C5 /* NHSF Bradford.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Bradford.jpg"; path = "../../../NHSF Chapters/NHSF Bradford.jpg"; sourceTree = "<group>"; };
+		F5C5618A1969909700E0E0C5 /* NHSF Bristol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Bristol.jpg"; path = "../../../NHSF Chapters/NHSF Bristol.jpg"; sourceTree = "<group>"; };
+		F5C5618B1969909700E0E0C5 /* NHSF Brunel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Brunel.jpg"; path = "../../../NHSF Chapters/NHSF Brunel.jpg"; sourceTree = "<group>"; };
+		F5C5618C1969909700E0E0C5 /* NHSF Cardiff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Cardiff.jpg"; path = "../../../NHSF Chapters/NHSF Cardiff.jpg"; sourceTree = "<group>"; };
+		F5C5618D1969909700E0E0C5 /* NHSF City.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF City.jpg"; path = "../../../NHSF Chapters/NHSF City.jpg"; sourceTree = "<group>"; };
+		F5C5618E1969909700E0E0C5 /* NHSF Coventry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Coventry.jpg"; path = "../../../NHSF Chapters/NHSF Coventry.jpg"; sourceTree = "<group>"; };
+		F5C5618F1969909700E0E0C5 /* NHSF DMU.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF DMU.jpg"; path = "../../../NHSF Chapters/NHSF DMU.jpg"; sourceTree = "<group>"; };
+		F5C561901969909700E0E0C5 /* NHSF Greenwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Greenwich.jpg"; path = "../../../NHSF Chapters/NHSF Greenwich.jpg"; sourceTree = "<group>"; };
+		F5C561911969909700E0E0C5 /* NHSF Hertfordshire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Hertfordshire.jpg"; path = "../../../NHSF Chapters/NHSF Hertfordshire.jpg"; sourceTree = "<group>"; };
+		F5C561921969909700E0E0C5 /* NHSF Huddersfield.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Huddersfield.jpg"; path = "../../../NHSF Chapters/NHSF Huddersfield.jpg"; sourceTree = "<group>"; };
+		F5C561931969909700E0E0C5 /* NHSF Hull.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Hull.jpg"; path = "../../../NHSF Chapters/NHSF Hull.jpg"; sourceTree = "<group>"; };
+		F5C561941969909700E0E0C5 /* NHSF Imperial.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Imperial.jpg"; path = "../../../NHSF Chapters/NHSF Imperial.jpg"; sourceTree = "<group>"; };
+		F5C561951969909700E0E0C5 /* NHSF KCL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF KCL.jpg"; path = "../../../NHSF Chapters/NHSF KCL.jpg"; sourceTree = "<group>"; };
+		F5C561961969909700E0E0C5 /* NHSF Keele.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Keele.jpg"; path = "../../../NHSF Chapters/NHSF Keele.jpg"; sourceTree = "<group>"; };
+		F5C561971969909700E0E0C5 /* NHSF Kent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Kent.jpg"; path = "../../../NHSF Chapters/NHSF Kent.jpg"; sourceTree = "<group>"; };
+		F5C561981969909700E0E0C5 /* NHSF Kingston.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Kingston.jpg"; path = "../../../NHSF Chapters/NHSF Kingston.jpg"; sourceTree = "<group>"; };
+		F5C561991969909700E0E0C5 /* NHSF Leeds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Leeds.jpg"; path = "../../../NHSF Chapters/NHSF Leeds.jpg"; sourceTree = "<group>"; };
+		F5C5619A1969909700E0E0C5 /* NHSF Leicester.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Leicester.jpg"; path = "../../../NHSF Chapters/NHSF Leicester.jpg"; sourceTree = "<group>"; };
+		F5C5619B1969909700E0E0C5 /* NHSF Liverpool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Liverpool.jpg"; path = "../../../NHSF Chapters/NHSF Liverpool.jpg"; sourceTree = "<group>"; };
+		F5C5619C1969909700E0E0C5 /* NHSF Loughborough.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Loughborough.jpg"; path = "../../../NHSF Chapters/NHSF Loughborough.jpg"; sourceTree = "<group>"; };
+		F5C5619D1969909700E0E0C5 /* NHSF LSE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF LSE.jpg"; path = "../../../NHSF Chapters/NHSF LSE.jpg"; sourceTree = "<group>"; };
+		F5C5619E1969909700E0E0C5 /* NHSF Manchester.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Manchester.jpg"; path = "../../../NHSF Chapters/NHSF Manchester.jpg"; sourceTree = "<group>"; };
+		F5C5619F1969909700E0E0C5 /* NHSF Medway.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Medway.jpg"; path = "../../../NHSF Chapters/NHSF Medway.jpg"; sourceTree = "<group>"; };
+		F5C561A01969909700E0E0C5 /* NHSF Northampton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Northampton.jpg"; path = "../../../NHSF Chapters/NHSF Northampton.jpg"; sourceTree = "<group>"; };
+		F5C561A11969909700E0E0C5 /* NHSF Northumbria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Northumbria.jpg"; path = "../../../NHSF Chapters/NHSF Northumbria.jpg"; sourceTree = "<group>"; };
+		F5C561A21969909700E0E0C5 /* NHSF Nottingham.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Nottingham.jpg"; path = "../../../NHSF Chapters/NHSF Nottingham.jpg"; sourceTree = "<group>"; };
+		F5C561A31969909700E0E0C5 /* NHSF NTU.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF NTU.jpg"; path = "../../../NHSF Chapters/NHSF NTU.jpg"; sourceTree = "<group>"; };
+		F5C561A41969909700E0E0C5 /* NHSF Plymouth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Plymouth.jpg"; path = "../../../NHSF Chapters/NHSF Plymouth.jpg"; sourceTree = "<group>"; };
+		F5C561A51969909700E0E0C5 /* NHSF Portsmouth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Portsmouth.jpg"; path = "../../../NHSF Chapters/NHSF Portsmouth.jpg"; sourceTree = "<group>"; };
+		F5C561A61969909700E0E0C5 /* NHSF QMUL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF QMUL.jpg"; path = "../../../NHSF Chapters/NHSF QMUL.jpg"; sourceTree = "<group>"; };
+		F5C561A71969909700E0E0C5 /* NHSF Reading.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Reading.jpg"; path = "../../../NHSF Chapters/NHSF Reading.jpg"; sourceTree = "<group>"; };
+		F5C561A81969909700E0E0C5 /* NHSF Roehampton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Roehampton.jpg"; path = "../../../NHSF Chapters/NHSF Roehampton.jpg"; sourceTree = "<group>"; };
+		F5C561A91969909700E0E0C5 /* NHSF SGUL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF SGUL.jpg"; path = "../../../NHSF Chapters/NHSF SGUL.jpg"; sourceTree = "<group>"; };
+		F5C561AA1969909700E0E0C5 /* NHSF Sheffield.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Sheffield.jpg"; path = "../../../NHSF Chapters/NHSF Sheffield.jpg"; sourceTree = "<group>"; };
+		F5C561AB1969909700E0E0C5 /* NHSF Southampton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Southampton.jpg"; path = "../../../NHSF Chapters/NHSF Southampton.jpg"; sourceTree = "<group>"; };
+		F5C561AC1969909700E0E0C5 /* NHSF UEA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF UEA.jpg"; path = "../../../NHSF Chapters/NHSF UEA.jpg"; sourceTree = "<group>"; };
+		F5C561AD1969909700E0E0C5 /* NHSF Warwick.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Warwick.jpg"; path = "../../../NHSF Chapters/NHSF Warwick.jpg"; sourceTree = "<group>"; };
+		F5C561AE1969909700E0E0C5 /* NHSF Westminster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Westminster.jpg"; path = "../../../NHSF Chapters/NHSF Westminster.jpg"; sourceTree = "<group>"; };
+		F5C561D9196994A400E0E0C5 /* NHSFChapterImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFChapterImageViewController.h; sourceTree = "<group>"; };
+		F5C561DA196994A400E0E0C5 /* NHSFChapterImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFChapterImageViewController.m; sourceTree = "<group>"; };
+		F5C561DC1969E49200E0E0C5 /* NHSF Brighton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Brighton.jpg"; path = "../../../NHSF Chapters/NHSF Brighton.jpg"; sourceTree = "<group>"; };
+		F5C561DD1969E49200E0E0C5 /* NHSF SOAS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF SOAS.jpg"; path = "../../../NHSF Chapters/NHSF SOAS.jpg"; sourceTree = "<group>"; };
+		F5C561E0196ADC8700E0E0C5 /* NHSFChapterDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFChapterDataViewController.h; sourceTree = "<group>"; };
+		F5C561E1196ADC8700E0E0C5 /* NHSFChapterDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFChapterDataViewController.m; sourceTree = "<group>"; };
+		F5C561E3196B3B2D00E0E0C5 /* NHSF York.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF York.jpg"; path = "../../../NHSF Chapters/NHSF York.jpg"; sourceTree = "<group>"; };
+		F5C561E5196B3C4000E0E0C5 /* NHSF UWE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF UWE.jpg"; path = "../../../NHSF Chapters/NHSF UWE.jpg"; sourceTree = "<group>"; };
+		F5C561E7196B3C5C00E0E0C5 /* NHSF Exeter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "NHSF Exeter.jpg"; path = "../../../NHSF Chapters/NHSF Exeter.jpg"; sourceTree = "<group>"; };
+		F5C6F72F197F0825006BCCFD /* FBLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBLogin.png; sourceTree = "<group>"; };
+		F5C6F731197F0838006BCCFD /* FBShare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBShare.png; sourceTree = "<group>"; };
+		F5C6F733197F09CC006BCCFD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F5C6F735197F09D5006BCCFD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F5C6F737197F09E7006BCCFD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F5C6F739197F09F6006BCCFD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F5C6F73B197F0A03006BCCFD /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		F5C6F73D197F0A11006BCCFD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F5C6F73F197F0A1A006BCCFD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F5C6F741197F0A25006BCCFD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F5C6F743197F0A33006BCCFD /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F5C6F745197F0A3C006BCCFD /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		F5C6F747197F0A4F006BCCFD /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		F5C6F749197F0CA6006BCCFD /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		F5C739BF197C0273005E94B5 /* NHSF (UK) National Charity.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "NHSF (UK) National Charity.pdf"; sourceTree = "<group>"; };
+		F5C739C1197C029B005E94B5 /* NHSFNationalCharityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFNationalCharityViewController.h; sourceTree = "<group>"; };
+		F5C739C2197C029B005E94B5 /* NHSFNationalCharityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFNationalCharityViewController.m; sourceTree = "<group>"; };
+		F5C739C4197C0522005E94B5 /* NHSFSewaInspirationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFSewaInspirationTableViewController.h; sourceTree = "<group>"; };
+		F5C739C5197C0522005E94B5 /* NHSFSewaInspirationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFSewaInspirationTableViewController.m; sourceTree = "<group>"; };
+		F5C739C7197C0638005E94B5 /* NHSFSewaVideosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFSewaVideosTableViewController.h; sourceTree = "<group>"; };
+		F5C739C8197C0638005E94B5 /* NHSFSewaVideosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFSewaVideosTableViewController.m; sourceTree = "<group>"; };
+		F5C739CA197C06CA005E94B5 /* NHSFWaterChangesEverythingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFWaterChangesEverythingViewController.h; sourceTree = "<group>"; };
+		F5C739CB197C06CA005E94B5 /* NHSFWaterChangesEverythingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFWaterChangesEverythingViewController.m; sourceTree = "<group>"; };
+		F5C739CD197C0911005E94B5 /* Water.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Water.jpg; sourceTree = "<group>"; };
+		F5C739CF197C0B35005E94B5 /* IF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IF.jpg; sourceTree = "<group>"; };
+		F5C739D1197C0D14005E94B5 /* Dabba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dabba.jpg; sourceTree = "<group>"; };
+		F5C739D3197C0DE6005E94B5 /* Homeless.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Homeless.jpg; sourceTree = "<group>"; };
+		F5C739D5197C0ED1005E94B5 /* ShareCareJoy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ShareCareJoy.jpg; sourceTree = "<group>"; };
+		F5C739D7197C0F7F005E94B5 /* IndiasPoor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IndiasPoor.jpg; sourceTree = "<group>"; };
+		F5C739D9197C1188005E94B5 /* RachelBeckwith.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RachelBeckwith.jpg; sourceTree = "<group>"; };
+		F5C739DB197C1240005E94B5 /* A Truly Selfless Being.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "A Truly Selfless Being.jpg"; sourceTree = "<group>"; };
+		F5C739DD197C138A005E94B5 /* ShareCareJoy2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ShareCareJoy2.jpg; sourceTree = "<group>"; };
+		F5C739DF197C14C8005E94B5 /* NHSFEnoughFoodForEveryoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFEnoughFoodForEveryoneViewController.h; sourceTree = "<group>"; };
+		F5C739E0197C14C8005E94B5 /* NHSFEnoughFoodForEveryoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFEnoughFoodForEveryoneViewController.m; sourceTree = "<group>"; };
+		F5C739E2197C1657005E94B5 /* NHSFShareMyDabbaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFShareMyDabbaViewController.h; sourceTree = "<group>"; };
+		F5C739E3197C1657005E94B5 /* NHSFShareMyDabbaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFShareMyDabbaViewController.m; sourceTree = "<group>"; };
+		F5C739E5197C166A005E94B5 /* NHSFMakeTheHomelessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFMakeTheHomelessViewController.h; sourceTree = "<group>"; };
+		F5C739E6197C166A005E94B5 /* NHSFMakeTheHomelessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFMakeTheHomelessViewController.m; sourceTree = "<group>"; };
+		F5C739E8197C17EF005E94B5 /* NHSFShareCareJoyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFShareCareJoyViewController.h; sourceTree = "<group>"; };
+		F5C739E9197C17EF005E94B5 /* NHSFShareCareJoyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFShareCareJoyViewController.m; sourceTree = "<group>"; };
+		F5C739EB197C17FF005E94B5 /* NHSFIndiasPoorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFIndiasPoorViewController.h; sourceTree = "<group>"; };
+		F5C739EC197C17FF005E94B5 /* NHSFIndiasPoorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFIndiasPoorViewController.m; sourceTree = "<group>"; };
+		F5C739EE197C19F3005E94B5 /* NHSFRachelBeckwithViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFRachelBeckwithViewController.h; sourceTree = "<group>"; };
+		F5C739EF197C19F3005E94B5 /* NHSFRachelBeckwithViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFRachelBeckwithViewController.m; sourceTree = "<group>"; };
+		F5C739F1197C1A15005E94B5 /* NHSFATrulySelflessBeingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFATrulySelflessBeingViewController.h; sourceTree = "<group>"; };
+		F5C739F2197C1A15005E94B5 /* NHSFATrulySelflessBeingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFATrulySelflessBeingViewController.m; sourceTree = "<group>"; };
+		F5D9564E19753C9800CB62FD /* NHSF (UK) App Icon58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NHSF (UK) App Icon58x58.png"; sourceTree = "<group>"; };
+		F5D9564F19753C9800CB62FD /* NHSF (UK) App Icon80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NHSF (UK) App Icon80x80.png"; sourceTree = "<group>"; };
+		F5D9565019753C9800CB62FD /* NHSF (UK) App Icon120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NHSF (UK) App Icon120x120.png"; sourceTree = "<group>"; };
+		F5D956B81976C2CB00CB62FD /* NHSFScripturesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFScripturesTableViewController.h; sourceTree = "<group>"; };
+		F5D956B91976C2CB00CB62FD /* NHSFScripturesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFScripturesTableViewController.m; sourceTree = "<group>"; };
+		F5D956BB1976C4C500CB62FD /* NHSFBhagvadGitaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFBhagvadGitaViewController.h; sourceTree = "<group>"; };
+		F5D956BC1976C4C500CB62FD /* NHSFBhagvadGitaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFBhagvadGitaViewController.m; sourceTree = "<group>"; };
+		F5D956BE1976C58200CB62FD /* Bhagavad Gita.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Bhagavad Gita.pdf"; sourceTree = "<group>"; };
+		F5D956C01976C66D00CB62FD /* VishvaRoop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VishvaRoop.jpg; sourceTree = "<group>"; };
+		F5D956C21976D17B00CB62FD /* NHSFHinduismMadeSimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFHinduismMadeSimpleViewController.h; sourceTree = "<group>"; };
+		F5D956C31976D17B00CB62FD /* NHSFHinduismMadeSimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFHinduismMadeSimpleViewController.m; sourceTree = "<group>"; };
+		F5D956C51976E08600CB62FD /* NHSFAboutUsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFAboutUsTableViewController.h; sourceTree = "<group>"; };
+		F5D956C61976E08600CB62FD /* NHSFAboutUsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFAboutUsTableViewController.m; sourceTree = "<group>"; };
+		F5D956CB197710B700CB62FD /* NHSFIntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFIntroductionViewController.h; sourceTree = "<group>"; };
+		F5D956CC197710B700CB62FD /* NHSFIntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFIntroductionViewController.m; sourceTree = "<group>"; };
+		F5D956CE1977244200CB62FD /* NHSFNatcomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFNatcomTableViewController.h; sourceTree = "<group>"; };
+		F5D956CF1977244200CB62FD /* NHSFNatcomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFNatcomTableViewController.m; sourceTree = "<group>"; };
+		F5D956D119772E4700CB62FD /* About Us Page Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "About Us Page Logo.jpg"; sourceTree = "<group>"; };
+		F5D956D3197730B300CB62FD /* About Us Image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "About Us Image.jpg"; sourceTree = "<group>"; };
+		F5DEC149197F15C600CACC1A /* NHSFFBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFFBLoginViewController.h; sourceTree = "<group>"; };
+		F5DEC14A197F15C600CACC1A /* NHSFFBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFFBLoginViewController.m; sourceTree = "<group>"; };
+		F5DEC14C197F18AC00CACC1A /* Comms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comms.h; sourceTree = "<group>"; };
+		F5DEC14D197F18AC00CACC1A /* Comms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comms.m; sourceTree = "<group>"; };
+		F5DEC152197F1CA400CACC1A /* NHSFImageWallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFImageWallViewController.h; sourceTree = "<group>"; };
+		F5DEC153197F1CA400CACC1A /* NHSFImageWallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFImageWallViewController.m; sourceTree = "<group>"; };
+		F5DEC155197F1FB400CACC1A /* UIImage+Scaling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scaling.h"; sourceTree = "<group>"; };
+		F5DEC156197F1FB400CACC1A /* UIImage+Scaling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scaling.m"; sourceTree = "<group>"; };
+		F5DEC158197F206E00CACC1A /* NHSFUploadImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFUploadImageViewController.h; sourceTree = "<group>"; };
+		F5DEC159197F206E00CACC1A /* NHSFUploadImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFUploadImageViewController.m; sourceTree = "<group>"; };
+		F5DEC15D197F29E800CACC1A /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		F5DEC166197F2BCD00CACC1A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Pods/Parse/Parse.framework; sourceTree = "<group>"; };
+		F5DEC168197F2BE900CACC1A /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		F5DEC173197FC08400CACC1A /* NSOperationQueue+SharedQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOperationQueue+SharedQueue.h"; sourceTree = "<group>"; };
+		F5DEC174197FC08400CACC1A /* NSOperationQueue+SharedQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOperationQueue+SharedQueue.m"; sourceTree = "<group>"; };
+		F5DEC176197FC11300CACC1A /* DataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStore.h; sourceTree = "<group>"; };
+		F5DEC177197FC11300CACC1A /* DataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStore.m; sourceTree = "<group>"; };
+		F5DF367D1973248F00AF1365 /* NHSFPrayersSectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFPrayersSectionTableViewController.h; sourceTree = "<group>"; };
+		F5DF367E1973248F00AF1365 /* NHSFPrayersSectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFPrayersSectionTableViewController.m; sourceTree = "<group>"; };
+		F5DF3680197325C200AF1365 /* NHSFHanumanChalisaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFHanumanChalisaViewController.h; sourceTree = "<group>"; };
+		F5DF3681197325C200AF1365 /* NHSFHanumanChalisaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFHanumanChalisaViewController.m; sourceTree = "<group>"; };
+		F5DF3683197326C300AF1365 /* Hanuman Chalisa Colour.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Hanuman Chalisa Colour.pdf"; sourceTree = "<group>"; };
+		F5DF36851973299E00AF1365 /* Om Jai Jagdish Aarti.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Om Jai Jagdish Aarti.pdf"; sourceTree = "<group>"; };
+		F5DF36861973299E00AF1365 /* Sangeet of the Soul.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Sangeet of the Soul.pdf"; sourceTree = "<group>"; };
+		F5DF368919732A0B00AF1365 /* NHSFOmJaiJagdishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFOmJaiJagdishViewController.h; sourceTree = "<group>"; };
+		F5DF368A19732A0B00AF1365 /* NHSFOmJaiJagdishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFOmJaiJagdishViewController.m; sourceTree = "<group>"; };
+		F5DF368C19732C4900AF1365 /* NHSFSangeetOfTheSoulViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSFSangeetOfTheSoulViewController.h; sourceTree = "<group>"; };
+		F5DF368D19732C4900AF1365 /* NHSFSangeetOfTheSoulViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSFSangeetOfTheSoulViewController.m; sourceTree = "<group>"; };
+		F8A2072A195F10B0008FB2AF /* CampusTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CampusTableViewController.h; path = NHSFApp/CampusTableViewController.h; sourceTree = "<group>"; };
+		F8A2072B195F10B0008FB2AF /* CampusTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CampusTableViewController.m; path = NHSFApp/CampusTableViewController.m; sourceTree = "<group>"; };
+		F8A20737195F1B33008FB2AF /* EventsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsTableViewController.h; sourceTree = "<group>"; };
+		F8A20738195F1B33008FB2AF /* EventsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsTableViewController.m; sourceTree = "<group>"; };
+		F8A2073A195F1EB9008FB2AF /* LearningTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LearningTableViewController.h; path = NHSFApp/LearningTableViewController.h; sourceTree = "<group>"; };
+		F8A2073B195F1EB9008FB2AF /* LearningTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LearningTableViewController.m; path = NHSFApp/LearningTableViewController.m; sourceTree = "<group>"; };
+		F8A2073D195F2685008FB2AF /* SewaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SewaTableViewController.h; path = NHSFApp/SewaTableViewController.h; sourceTree = "<group>"; };
+		F8A2073E195F2685008FB2AF /* SewaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SewaTableViewController.m; path = NHSFApp/SewaTableViewController.m; sourceTree = "<group>"; };
+		F8B5ED16195C6BCE00F97D9A /* NHSF (UK).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NHSF (UK).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B5ED19195C6BCE00F97D9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8B5ED1B195C6BCE00F97D9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F8B5ED1D195C6BCE00F97D9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8B5ED21195C6BCE00F97D9A /* NHSF (UK)-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NHSF (UK)-Info.plist"; sourceTree = "<group>"; };
+		F8B5ED23195C6BCE00F97D9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8B5ED25195C6BCE00F97D9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8B5ED27195C6BCE00F97D9A /* NHSF (UK)-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NHSF (UK)-Prefix.pch"; sourceTree = "<group>"; };
+		F8B5ED28195C6BCE00F97D9A /* NHSFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NHSFAppDelegate.h; path = NHSFApp/NHSFAppDelegate.h; sourceTree = "<group>"; };
+		F8B5ED29195C6BCE00F97D9A /* NHSFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NHSFAppDelegate.m; path = NHSFApp/NHSFAppDelegate.m; sourceTree = "<group>"; };
+		F8B5ED2C195C6BCE00F97D9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8B5ED34195C6BCE00F97D9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NHSFApp/Images.xcassets; sourceTree = "<group>"; };
+		F8B5ED3A195C6BCE00F97D9A /* NHSF (UK)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NHSF (UK)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B5ED3B195C6BCE00F97D9A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F8B5ED43195C6BCE00F97D9A /* NHSF (UK)Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NHSF (UK)Tests-Info.plist"; sourceTree = "<group>"; };
+		F8B5ED45195C6BCE00F97D9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8B5ED47195C6BCE00F97D9A /* NHSFAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHSFAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8B5ED13195C6BCE00F97D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52A5975197AA547000F9EF7 /* Social.framework in Frameworks */,
+				F54C50451971EF9400BF3300 /* MapKit.framework in Frameworks */,
+				F54C50431971EF8D00BF3300 /* CoreLocation.framework in Frameworks */,
+				F54C50411971EF8800BF3300 /* AddressBook.framework in Frameworks */,
+				F8B5ED1C195C6BCE00F97D9A /* CoreGraphics.framework in Frameworks */,
+				F8B5ED1E195C6BCE00F97D9A /* UIKit.framework in Frameworks */,
+				F8B5ED1A195C6BCE00F97D9A /* Foundation.framework in Frameworks */,
+				982042A446864530B05851BB /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B5ED37195C6BCE00F97D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B5ED3C195C6BCE00F97D9A /* XCTest.framework in Frameworks */,
+				F8B5ED3E195C6BCE00F97D9A /* UIKit.framework in Frameworks */,
+				F8B5ED3D195C6BCE00F97D9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5D956C81976E0D400CB62FD /* About Us */ = {
+			isa = PBXGroup;
+			children = (
+				F5D956C51976E08600CB62FD /* NHSFAboutUsTableViewController.h */,
+				F5D956C61976E08600CB62FD /* NHSFAboutUsTableViewController.m */,
+				F5D956CE1977244200CB62FD /* NHSFNatcomTableViewController.h */,
+				F5D956CF1977244200CB62FD /* NHSFNatcomTableViewController.m */,
+			);
+			name = "About Us";
+			sourceTree = "<group>";
+		};
+		F8A2072D195F10EB008FB2AF /* Campus Page */ = {
+			isa = PBXGroup;
+			children = (
+				F5C56129196971B200E0E0C5 /* NHSFAffiliatedChapterData.h */,
+				F5C5618019697E2F00E0E0C5 /* NHSFChapterObject.h */,
+				F5C5618119697E2F00E0E0C5 /* NHSFChapterObject.m */,
+				F5C5612A196971B200E0E0C5 /* NHSFAffiliatedChapterData.m */,
+				F5C561E0196ADC8700E0E0C5 /* NHSFChapterDataViewController.h */,
+				F5C561E1196ADC8700E0E0C5 /* NHSFChapterDataViewController.m */,
+				F5C561D9196994A400E0E0C5 /* NHSFChapterImageViewController.h */,
+				F5C561DA196994A400E0E0C5 /* NHSFChapterImageViewController.m */,
+				F8A2072A195F10B0008FB2AF /* CampusTableViewController.h */,
+				F8A2072B195F10B0008FB2AF /* CampusTableViewController.m */,
+			);
+			name = "Campus Page";
+			sourceTree = "<group>";
+		};
+		F8A20731195F176B008FB2AF /* Events Page */ = {
+			isa = PBXGroup;
+			children = (
+				F5A21829196F439400A9628C /* Event.h */,
+				F5A2182A196F439400A9628C /* Event.m */,
+				F5A2182C196F460300A9628C /* NHSFEventDetailViewController.h */,
+				F5A2182D196F460300A9628C /* NHSFEventDetailViewController.m */,
+				F8A20737195F1B33008FB2AF /* EventsTableViewController.h */,
+				F8A20738195F1B33008FB2AF /* EventsTableViewController.m */,
+			);
+			name = "Events Page";
+			sourceTree = "<group>";
+		};
+		F8A20732195F177D008FB2AF /* Learning Page */ = {
+			isa = PBXGroup;
+			children = (
+				F8A2073A195F1EB9008FB2AF /* LearningTableViewController.h */,
+				F8A2073B195F1EB9008FB2AF /* LearningTableViewController.m */,
+				F5DF367D1973248F00AF1365 /* NHSFPrayersSectionTableViewController.h */,
+				F5DF367E1973248F00AF1365 /* NHSFPrayersSectionTableViewController.m */,
+				F5DF3680197325C200AF1365 /* NHSFHanumanChalisaViewController.h */,
+				F5DF3681197325C200AF1365 /* NHSFHanumanChalisaViewController.m */,
+				F5DF368919732A0B00AF1365 /* NHSFOmJaiJagdishViewController.h */,
+				F5DF368A19732A0B00AF1365 /* NHSFOmJaiJagdishViewController.m */,
+				F5DF368C19732C4900AF1365 /* NHSFSangeetOfTheSoulViewController.h */,
+				F5DF368D19732C4900AF1365 /* NHSFSangeetOfTheSoulViewController.m */,
+				F58BCF8819733D11008DAFF2 /* NHSFMustKnowMantrasViewController.h */,
+				F58BCF8919733D11008DAFF2 /* NHSFMustKnowMantrasViewController.m */,
+				F58BCF8B19733FA2008DAFF2 /* NHSFMustReadViewController.h */,
+				F58BCF8C19733FA2008DAFF2 /* NHSFMustReadViewController.m */,
+				F5D956B81976C2CB00CB62FD /* NHSFScripturesTableViewController.h */,
+				F5D956B91976C2CB00CB62FD /* NHSFScripturesTableViewController.m */,
+				F5D956C21976D17B00CB62FD /* NHSFHinduismMadeSimpleViewController.h */,
+				F5D956C31976D17B00CB62FD /* NHSFHinduismMadeSimpleViewController.m */,
+				F5D956BB1976C4C500CB62FD /* NHSFBhagvadGitaViewController.h */,
+				F5D956BC1976C4C500CB62FD /* NHSFBhagvadGitaViewController.m */,
+				F50A3AC91973C8DD00791E87 /* NHSFPostersAndQuotesViewController.h */,
+				F50A3ACA1973C8DD00791E87 /* NHSFPostersAndQuotesViewController.m */,
+				F50A3ACC1973D12B00791E87 /* NHSFFreshersPackTableViewController.h */,
+				F50A3ACD1973D12B00791E87 /* NHSFFreshersPackTableViewController.m */,
+				F50A3AD61974AE3100791E87 /* NHSFWallPlannerViewController.h */,
+				F50A3AD71974AE3100791E87 /* NHSFWallPlannerViewController.m */,
+				F50A3AD31973D81B00791E87 /* NHSFHumMagazineViewController.h */,
+				F50A3AD41973D81B00791E87 /* NHSFHumMagazineViewController.m */,
+				F58BCF8119733895008DAFF2 /* NHSFImportantDatesViewController.h */,
+				F58BCF8219733895008DAFF2 /* NHSFImportantDatesViewController.m */,
+			);
+			name = "Learning Page";
+			sourceTree = "<group>";
+		};
+		F8A20733195F17B1008FB2AF /* Sewa Page */ = {
+			isa = PBXGroup;
+			children = (
+				F8A2073D195F2685008FB2AF /* SewaTableViewController.h */,
+				F8A2073E195F2685008FB2AF /* SewaTableViewController.m */,
+				F59026D31978649600BCEE37 /* NHSFSewaCampaignsTableViewController.h */,
+				F59026D41978649600BCEE37 /* NHSFSewaCampaignsTableViewController.m */,
+				F59026E0197870E700BCEE37 /* NHSFUniversitySewaGuideViewController.h */,
+				F59026E1197870E700BCEE37 /* NHSFUniversitySewaGuideViewController.m */,
+				F52A5971197AA2CF000F9EF7 /* NHSFSewaSelfieViewController.h */,
+				F52A5972197AA2CF000F9EF7 /* NHSFSewaSelfieViewController.m */,
+				F571D086197BC6780074D7A4 /* NHSFEventsOnAPlateViewController.h */,
+				F571D087197BC6780074D7A4 /* NHSFEventsOnAPlateViewController.m */,
+				F5C739C1197C029B005E94B5 /* NHSFNationalCharityViewController.h */,
+				F5C739C2197C029B005E94B5 /* NHSFNationalCharityViewController.m */,
+				F5C739C4197C0522005E94B5 /* NHSFSewaInspirationTableViewController.h */,
+				F5C739C5197C0522005E94B5 /* NHSFSewaInspirationTableViewController.m */,
+				F5C739C7197C0638005E94B5 /* NHSFSewaVideosTableViewController.h */,
+				F5C739C8197C0638005E94B5 /* NHSFSewaVideosTableViewController.m */,
+				F5C739CA197C06CA005E94B5 /* NHSFWaterChangesEverythingViewController.h */,
+				F5C739CB197C06CA005E94B5 /* NHSFWaterChangesEverythingViewController.m */,
+				F5C739DF197C14C8005E94B5 /* NHSFEnoughFoodForEveryoneViewController.h */,
+				F5C739E0197C14C8005E94B5 /* NHSFEnoughFoodForEveryoneViewController.m */,
+				F5C739E2197C1657005E94B5 /* NHSFShareMyDabbaViewController.h */,
+				F5C739E3197C1657005E94B5 /* NHSFShareMyDabbaViewController.m */,
+				F5C739E5197C166A005E94B5 /* NHSFMakeTheHomelessViewController.h */,
+				F5C739E6197C166A005E94B5 /* NHSFMakeTheHomelessViewController.m */,
+				F5C739E8197C17EF005E94B5 /* NHSFShareCareJoyViewController.h */,
+				F5C739E9197C17EF005E94B5 /* NHSFShareCareJoyViewController.m */,
+				F5C739EB197C17FF005E94B5 /* NHSFIndiasPoorViewController.h */,
+				F5C739EC197C17FF005E94B5 /* NHSFIndiasPoorViewController.m */,
+				F5C739EE197C19F3005E94B5 /* NHSFRachelBeckwithViewController.h */,
+				F5C739EF197C19F3005E94B5 /* NHSFRachelBeckwithViewController.m */,
+				F5C739F1197C1A15005E94B5 /* NHSFATrulySelflessBeingViewController.h */,
+				F5C739F2197C1A15005E94B5 /* NHSFATrulySelflessBeingViewController.m */,
+				F5DEC149197F15C600CACC1A /* NHSFFBLoginViewController.h */,
+				F5DEC14A197F15C600CACC1A /* NHSFFBLoginViewController.m */,
+				F5DEC14C197F18AC00CACC1A /* Comms.h */,
+				F5DEC14D197F18AC00CACC1A /* Comms.m */,
+				F5DEC152197F1CA400CACC1A /* NHSFImageWallViewController.h */,
+				F5DEC153197F1CA400CACC1A /* NHSFImageWallViewController.m */,
+				F5DEC155197F1FB400CACC1A /* UIImage+Scaling.h */,
+				F5DEC156197F1FB400CACC1A /* UIImage+Scaling.m */,
+				F5DEC158197F206E00CACC1A /* NHSFUploadImageViewController.h */,
+				F5DEC159197F206E00CACC1A /* NHSFUploadImageViewController.m */,
+				F5DEC173197FC08400CACC1A /* NSOperationQueue+SharedQueue.h */,
+				F5DEC174197FC08400CACC1A /* NSOperationQueue+SharedQueue.m */,
+				F5DEC176197FC11300CACC1A /* DataStore.h */,
+				F5DEC177197FC11300CACC1A /* DataStore.m */,
+			);
+			name = "Sewa Page";
+			sourceTree = "<group>";
+		};
+		F8B5ED0D195C6BCE00F97D9A = {
+			isa = PBXGroup;
+			children = (
+				F5D956CB197710B700CB62FD /* NHSFIntroductionViewController.h */,
+				F5D956CC197710B700CB62FD /* NHSFIntroductionViewController.m */,
+				F8B5ED28195C6BCE00F97D9A /* NHSFAppDelegate.h */,
+				F8B5ED29195C6BCE00F97D9A /* NHSFAppDelegate.m */,
+				F8B5ED2B195C6BCE00F97D9A /* Main.storyboard */,
+				F8B5ED34195C6BCE00F97D9A /* Images.xcassets */,
+				F5D956C81976E0D400CB62FD /* About Us */,
+				F8A20733195F17B1008FB2AF /* Sewa Page */,
+				F8A20732195F177D008FB2AF /* Learning Page */,
+				F8A20731195F176B008FB2AF /* Events Page */,
+				F8A2072D195F10EB008FB2AF /* Campus Page */,
+				F8B5ED20195C6BCE00F97D9A /* Supporting Files */,
+				F8B5ED41195C6BCE00F97D9A /* NHSFAppTests */,
+				F8B5ED18195C6BCE00F97D9A /* Frameworks */,
+				F8B5ED17195C6BCE00F97D9A /* Products */,
+				64A3356F6FB54BBCADF0A008 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		F8B5ED17195C6BCE00F97D9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8B5ED16195C6BCE00F97D9A /* NHSF (UK).app */,
+				F8B5ED3A195C6BCE00F97D9A /* NHSF (UK)Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8B5ED18195C6BCE00F97D9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5DEC168197F2BE900CACC1A /* FacebookSDK.framework */,
+				F5DEC166197F2BCD00CACC1A /* Parse.framework */,
+				F5DEC15D197F29E800CACC1A /* FacebookSDKResources.bundle */,
+				F5C6F73F197F0A1A006BCCFD /* AudioToolbox.framework */,
+				F5C6F749197F0CA6006BCCFD /* FacebookSDK.framework */,
+				F5C6F747197F0A4F006BCCFD /* Accounts.framework */,
+				F5C6F745197F0A3C006BCCFD /* AdSupport.framework */,
+				F5C6F743197F0A33006BCCFD /* libsqlite3.dylib */,
+				F5C6F741197F0A25006BCCFD /* Security.framework */,
+				F5C6F73D197F0A11006BCCFD /* CFNetwork.framework */,
+				F5C6F73B197F0A03006BCCFD /* libz.1.1.3.dylib */,
+				F5C6F739197F09F6006BCCFD /* MobileCoreServices.framework */,
+				F5C6F737197F09E7006BCCFD /* QuartzCore.framework */,
+				F5C6F735197F09D5006BCCFD /* StoreKit.framework */,
+				F5C6F733197F09CC006BCCFD /* SystemConfiguration.framework */,
+				F52A5974197AA547000F9EF7 /* Social.framework */,
+				F54C50441971EF9400BF3300 /* MapKit.framework */,
+				F54C50421971EF8D00BF3300 /* CoreLocation.framework */,
+				F54C50401971EF8800BF3300 /* AddressBook.framework */,
+				F8B5ED19195C6BCE00F97D9A /* Foundation.framework */,
+				F8B5ED1B195C6BCE00F97D9A /* CoreGraphics.framework */,
+				F8B5ED1D195C6BCE00F97D9A /* UIKit.framework */,
+				F8B5ED3B195C6BCE00F97D9A /* XCTest.framework */,
+				4324969762634B68B865856C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8B5ED20195C6BCE00F97D9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F564D2AF197E948F00A8C9CD /* NHSF Logo 2014 Orange.jpg */,
+				F5C739DD197C138A005E94B5 /* ShareCareJoy2.jpg */,
+				F5C739D9197C1188005E94B5 /* RachelBeckwith.jpg */,
+				F5C739DB197C1240005E94B5 /* A Truly Selfless Being.jpg */,
+				F5C6F72F197F0825006BCCFD /* FBLogin.png */,
+				F5C6F731197F0838006BCCFD /* FBShare.png */,
+				F5C739D3197C0DE6005E94B5 /* Homeless.jpg */,
+				F5C739D7197C0F7F005E94B5 /* IndiasPoor.jpg */,
+				F5C739D5197C0ED1005E94B5 /* ShareCareJoy.jpg */,
+				F5C739D1197C0D14005E94B5 /* Dabba.jpg */,
+				F5C739CF197C0B35005E94B5 /* IF.jpg */,
+				F5C739CD197C0911005E94B5 /* Water.jpg */,
+				F59026E61978755900BCEE37 /* SEWA.jpg */,
+				F58BCF90197343D8008DAFF2 /* bhagavadgita.jpg */,
+				F5D956BE1976C58200CB62FD /* Bhagavad Gita.pdf */,
+				F50A3AD11973D47300791E87 /* WALL PLANNER 2013.jpg */,
+				F50A3AD91974AED600791E87 /* WALL PLANNER 2013.pdf */,
+				F5C739BF197C0273005E94B5 /* NHSF (UK) National Charity.pdf */,
+				F58BCF92197346B1008DAFF2 /* Hanuman.jpg */,
+				F58BCF8619733CCE008DAFF2 /* Must Know Mantras.pdf */,
+				F58BCF841973391D008DAFF2 /* Dates for the diary.pdf */,
+				F5D956C01976C66D00CB62FD /* VishvaRoop.jpg */,
+				F5DF36851973299E00AF1365 /* Om Jai Jagdish Aarti.pdf */,
+				F52A596F197AA228000F9EF7 /* NHSFSelfieBackground.jpg */,
+				F5DF36861973299E00AF1365 /* Sangeet of the Soul.pdf */,
+				F5DF3683197326C300AF1365 /* Hanuman Chalisa Colour.pdf */,
+				F5D956D3197730B300CB62FD /* About Us Image.jpg */,
+				F5D956D119772E4700CB62FD /* About Us Page Logo.jpg */,
+				F59026DC19786FF400BCEE37 /* Sewa at Universities.pdf */,
+				F59026DD19786FF400BCEE37 /* Ultimate Sewa Guide.pdf */,
+				F59026DA19786C3C00BCEE37 /* NBDD 2013 Presentation.pdf */,
+				F59026D919786AD500BCEE37 /* NBDD 2013 Presentation.pptx */,
+				F58BCF8E197342D5008DAFF2 /* NHSFAppBackground2.jpg */,
+				F5C561851969909700E0E0C5 /* NHSF Aston.jpg */,
+				F5C561861969909700E0E0C5 /* NHSF BCU.jpg */,
+				F5C561871969909700E0E0C5 /* NHSF Birmingham.jpg */,
+				F5C561881969909700E0E0C5 /* NHSF BPP.jpg */,
+				F5C561891969909700E0E0C5 /* NHSF Bradford.jpg */,
+				F5C561DC1969E49200E0E0C5 /* NHSF Brighton.jpg */,
+				F5C5618A1969909700E0E0C5 /* NHSF Bristol.jpg */,
+				F5C5618B1969909700E0E0C5 /* NHSF Brunel.jpg */,
+				F5C5618C1969909700E0E0C5 /* NHSF Cardiff.jpg */,
+				F5C5618D1969909700E0E0C5 /* NHSF City.jpg */,
+				F5C5618E1969909700E0E0C5 /* NHSF Coventry.jpg */,
+				F5C5618F1969909700E0E0C5 /* NHSF DMU.jpg */,
+				F54C5046197201F000BF3300 /* NHSFAppBackground.jpg */,
+				F5C561E7196B3C5C00E0E0C5 /* NHSF Exeter.jpg */,
+				F5C561901969909700E0E0C5 /* NHSF Greenwich.jpg */,
+				F5C561911969909700E0E0C5 /* NHSF Hertfordshire.jpg */,
+				F5C561921969909700E0E0C5 /* NHSF Huddersfield.jpg */,
+				F5C561931969909700E0E0C5 /* NHSF Hull.jpg */,
+				F5C561941969909700E0E0C5 /* NHSF Imperial.jpg */,
+				F5C561951969909700E0E0C5 /* NHSF KCL.jpg */,
+				F5C561961969909700E0E0C5 /* NHSF Keele.jpg */,
+				F5C561971969909700E0E0C5 /* NHSF Kent.jpg */,
+				F5C561981969909700E0E0C5 /* NHSF Kingston.jpg */,
+				F5C561991969909700E0E0C5 /* NHSF Leeds.jpg */,
+				F5C5619A1969909700E0E0C5 /* NHSF Leicester.jpg */,
+				F5C5619B1969909700E0E0C5 /* NHSF Liverpool.jpg */,
+				F5C5619C1969909700E0E0C5 /* NHSF Loughborough.jpg */,
+				F5C5619D1969909700E0E0C5 /* NHSF LSE.jpg */,
+				F5C5619E1969909700E0E0C5 /* NHSF Manchester.jpg */,
+				F5C5619F1969909700E0E0C5 /* NHSF Medway.jpg */,
+				F5C561A01969909700E0E0C5 /* NHSF Northampton.jpg */,
+				F5C561A11969909700E0E0C5 /* NHSF Northumbria.jpg */,
+				F5C561A21969909700E0E0C5 /* NHSF Nottingham.jpg */,
+				F5C561A31969909700E0E0C5 /* NHSF NTU.jpg */,
+				F5C561A41969909700E0E0C5 /* NHSF Plymouth.jpg */,
+				F5C561A51969909700E0E0C5 /* NHSF Portsmouth.jpg */,
+				F5C561A61969909700E0E0C5 /* NHSF QMUL.jpg */,
+				F5C561A71969909700E0E0C5 /* NHSF Reading.jpg */,
+				F5C561A81969909700E0E0C5 /* NHSF Roehampton.jpg */,
+				F5C561A91969909700E0E0C5 /* NHSF SGUL.jpg */,
+				F5C561AA1969909700E0E0C5 /* NHSF Sheffield.jpg */,
+				F5C561DD1969E49200E0E0C5 /* NHSF SOAS.jpg */,
+				F5C561AB1969909700E0E0C5 /* NHSF Southampton.jpg */,
+				F5C561AC1969909700E0E0C5 /* NHSF UEA.jpg */,
+				F5C561E5196B3C4000E0E0C5 /* NHSF UWE.jpg */,
+				F5C561AD1969909700E0E0C5 /* NHSF Warwick.jpg */,
+				F5C561AE1969909700E0E0C5 /* NHSF Westminster.jpg */,
+				F5C561E3196B3B2D00E0E0C5 /* NHSF York.jpg */,
+				F5D9564E19753C9800CB62FD /* NHSF (UK) App Icon58x58.png */,
+				F5D9564F19753C9800CB62FD /* NHSF (UK) App Icon80x80.png */,
+				F5D9565019753C9800CB62FD /* NHSF (UK) App Icon120x120.png */,
+				F8B5ED21195C6BCE00F97D9A /* NHSF (UK)-Info.plist */,
+				F8B5ED22195C6BCE00F97D9A /* InfoPlist.strings */,
+				F8B5ED25195C6BCE00F97D9A /* main.m */,
+				F8B5ED27195C6BCE00F97D9A /* NHSF (UK)-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = NHSFApp;
+			sourceTree = "<group>";
+		};
+		F8B5ED41195C6BCE00F97D9A /* NHSFAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8B5ED47195C6BCE00F97D9A /* NHSFAppTests.m */,
+				F8B5ED42195C6BCE00F97D9A /* Supporting Files */,
+			);
+			path = NHSFAppTests;
+			sourceTree = "<group>";
+		};
+		F8B5ED42195C6BCE00F97D9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8B5ED43195C6BCE00F97D9A /* NHSF (UK)Tests-Info.plist */,
+				F8B5ED44195C6BCE00F97D9A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8B5ED15195C6BCE00F97D9A /* NHSF (UK) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B5ED4B195C6BCE00F97D9A /* Build configuration list for PBXNativeTarget "NHSF (UK)" */;
+			buildPhases = (
+				EB3F3111B12246D1BF60941B /* Check Pods Manifest.lock */,
+				F8B5ED12195C6BCE00F97D9A /* Sources */,
+				F8B5ED13195C6BCE00F97D9A /* Frameworks */,
+				F8B5ED14195C6BCE00F97D9A /* Resources */,
+				FBF8DB60F7BD455292DD3521 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NHSF (UK)";
+			productName = NHSFApp;
+			productReference = F8B5ED16195C6BCE00F97D9A /* NHSF (UK).app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8B5ED39195C6BCE00F97D9A /* NHSF (UK)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B5ED4E195C6BCE00F97D9A /* Build configuration list for PBXNativeTarget "NHSF (UK)Tests" */;
+			buildPhases = (
+				F8B5ED36195C6BCE00F97D9A /* Sources */,
+				F8B5ED37195C6BCE00F97D9A /* Frameworks */,
+				F8B5ED38195C6BCE00F97D9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8B5ED40195C6BCE00F97D9A /* PBXTargetDependency */,
+			);
+			name = "NHSF (UK)Tests";
+			productName = NHSFAppTests;
+			productReference = F8B5ED3A195C6BCE00F97D9A /* NHSF (UK)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8B5ED0E195C6BCE00F97D9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NHSF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DivyeshBC;
+				TargetAttributes = {
+					F8B5ED39195C6BCE00F97D9A = {
+						TestTargetID = F8B5ED15195C6BCE00F97D9A;
+					};
+				};
+			};
+			buildConfigurationList = F8B5ED11195C6BCE00F97D9A /* Build configuration list for PBXProject "NHSF (UK)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8B5ED0D195C6BCE00F97D9A;
+			productRefGroup = F8B5ED17195C6BCE00F97D9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8B5ED15195C6BCE00F97D9A /* NHSF (UK) */,
+				F8B5ED39195C6BCE00F97D9A /* NHSF (UK)Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8B5ED14195C6BCE00F97D9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C561E4196B3B2D00E0E0C5 /* NHSF York.jpg in Resources */,
+				F5C6F730197F0825006BCCFD /* FBLogin.png in Resources */,
+				F5C561DE1969E49200E0E0C5 /* NHSF Brighton.jpg in Resources */,
+				F5C561CC1969909700E0E0C5 /* NHSF Nottingham.jpg in Resources */,
+				F5DF36881973299E00AF1365 /* Sangeet of the Soul.pdf in Resources */,
+				F5C739D6197C0ED1005E94B5 /* ShareCareJoy.jpg in Resources */,
+				F5C739D8197C0F7F005E94B5 /* IndiasPoor.jpg in Resources */,
+				F5D9565119753C9800CB62FD /* NHSF (UK) App Icon58x58.png in Resources */,
+				F58BCF851973391D008DAFF2 /* Dates for the diary.pdf in Resources */,
+				F5C739CE197C0911005E94B5 /* Water.jpg in Resources */,
+				F5DF36871973299E00AF1365 /* Om Jai Jagdish Aarti.pdf in Resources */,
+				F5C561BF1969909700E0E0C5 /* NHSF KCL.jpg in Resources */,
+				F5C561B01969909700E0E0C5 /* NHSF BCU.jpg in Resources */,
+				F5C739DC197C1240005E94B5 /* A Truly Selfless Being.jpg in Resources */,
+				F5D9565219753C9800CB62FD /* NHSF (UK) App Icon80x80.png in Resources */,
+				F8B5ED35195C6BCE00F97D9A /* Images.xcassets in Resources */,
+				F58BCF93197346B1008DAFF2 /* Hanuman.jpg in Resources */,
+				F5C739DA197C1188005E94B5 /* RachelBeckwith.jpg in Resources */,
+				F5C561AF1969909700E0E0C5 /* NHSF Aston.jpg in Resources */,
+				F5C739DE197C138A005E94B5 /* ShareCareJoy2.jpg in Resources */,
+				F5C561D41969909700E0E0C5 /* NHSF Sheffield.jpg in Resources */,
+				F58BCF8719733CCE008DAFF2 /* Must Know Mantras.pdf in Resources */,
+				F5DEC15E197F29E800CACC1A /* FacebookSDKResources.bundle in Resources */,
+				F5C561CA1969909700E0E0C5 /* NHSF Northampton.jpg in Resources */,
+				F5C561CF1969909700E0E0C5 /* NHSF Portsmouth.jpg in Resources */,
+				F5C561B31969909700E0E0C5 /* NHSF Bradford.jpg in Resources */,
+				F5C561BE1969909700E0E0C5 /* NHSF Imperial.jpg in Resources */,
+				F5C561B81969909700E0E0C5 /* NHSF Coventry.jpg in Resources */,
+				F5C561B41969909700E0E0C5 /* NHSF Bristol.jpg in Resources */,
+				F5C561BD1969909700E0E0C5 /* NHSF Hull.jpg in Resources */,
+				F5C739D2197C0D14005E94B5 /* Dabba.jpg in Resources */,
+				F5C561B91969909700E0E0C5 /* NHSF DMU.jpg in Resources */,
+				F5D956D4197730B300CB62FD /* About Us Image.jpg in Resources */,
+				F8B5ED24195C6BCE00F97D9A /* InfoPlist.strings in Resources */,
+				F5D9565319753C9800CB62FD /* NHSF (UK) App Icon120x120.png in Resources */,
+				F5C561CE1969909700E0E0C5 /* NHSF Plymouth.jpg in Resources */,
+				F8B5ED2D195C6BCE00F97D9A /* Main.storyboard in Resources */,
+				F5C739C0197C0273005E94B5 /* NHSF (UK) National Charity.pdf in Resources */,
+				F5C561C91969909700E0E0C5 /* NHSF Medway.jpg in Resources */,
+				F58BCF91197343D8008DAFF2 /* bhagavadgita.jpg in Resources */,
+				F5C561D21969909700E0E0C5 /* NHSF Roehampton.jpg in Resources */,
+				F5C561D01969909700E0E0C5 /* NHSF QMUL.jpg in Resources */,
+				F5C561D61969909700E0E0C5 /* NHSF UEA.jpg in Resources */,
+				F5C561C61969909700E0E0C5 /* NHSF Loughborough.jpg in Resources */,
+				F5C561B61969909700E0E0C5 /* NHSF Cardiff.jpg in Resources */,
+				F5C561C01969909700E0E0C5 /* NHSF Keele.jpg in Resources */,
+				F54C5047197201F000BF3300 /* NHSFAppBackground.jpg in Resources */,
+				F5C561D31969909700E0E0C5 /* NHSF SGUL.jpg in Resources */,
+				F5C6F732197F0838006BCCFD /* FBShare.png in Resources */,
+				F5C561B71969909700E0E0C5 /* NHSF City.jpg in Resources */,
+				F5C561D71969909700E0E0C5 /* NHSF Warwick.jpg in Resources */,
+				F5C561C21969909700E0E0C5 /* NHSF Kingston.jpg in Resources */,
+				F5C561B51969909700E0E0C5 /* NHSF Brunel.jpg in Resources */,
+				F5D956D219772E4700CB62FD /* About Us Page Logo.jpg in Resources */,
+				F50A3AD21973D47300791E87 /* WALL PLANNER 2013.jpg in Resources */,
+				F5D956C11976C66D00CB62FD /* VishvaRoop.jpg in Resources */,
+				F5C561C71969909700E0E0C5 /* NHSF LSE.jpg in Resources */,
+				F59026DB19786C3C00BCEE37 /* NBDD 2013 Presentation.pdf in Resources */,
+				F59026E71978755900BCEE37 /* SEWA.jpg in Resources */,
+				F5C561C31969909700E0E0C5 /* NHSF Leeds.jpg in Resources */,
+				F5C561D11969909700E0E0C5 /* NHSF Reading.jpg in Resources */,
+				F58BCF8F197342D5008DAFF2 /* NHSFAppBackground2.jpg in Resources */,
+				F5DF3684197326C300AF1365 /* Hanuman Chalisa Colour.pdf in Resources */,
+				F5C561B21969909700E0E0C5 /* NHSF BPP.jpg in Resources */,
+				F5C561C41969909700E0E0C5 /* NHSF Leicester.jpg in Resources */,
+				F5D956BF1976C58200CB62FD /* Bhagavad Gita.pdf in Resources */,
+				F5C561D51969909700E0E0C5 /* NHSF Southampton.jpg in Resources */,
+				F50A3ADA1974AED600791E87 /* WALL PLANNER 2013.pdf in Resources */,
+				F5C561BC1969909700E0E0C5 /* NHSF Huddersfield.jpg in Resources */,
+				F5C561BB1969909700E0E0C5 /* NHSF Hertfordshire.jpg in Resources */,
+				F5C561E6196B3C4000E0E0C5 /* NHSF UWE.jpg in Resources */,
+				F5C739D4197C0DE6005E94B5 /* Homeless.jpg in Resources */,
+				F5C561C81969909700E0E0C5 /* NHSF Manchester.jpg in Resources */,
+				F5C561C51969909700E0E0C5 /* NHSF Liverpool.jpg in Resources */,
+				F5C561BA1969909700E0E0C5 /* NHSF Greenwich.jpg in Resources */,
+				F59026DF19786FF400BCEE37 /* Ultimate Sewa Guide.pdf in Resources */,
+				F5C561DF1969E49200E0E0C5 /* NHSF SOAS.jpg in Resources */,
+				F5C561E8196B3C5C00E0E0C5 /* NHSF Exeter.jpg in Resources */,
+				F5C739D0197C0B35005E94B5 /* IF.jpg in Resources */,
+				F5C561CB1969909700E0E0C5 /* NHSF Northumbria.jpg in Resources */,
+				F52A5970197AA228000F9EF7 /* NHSFSelfieBackground.jpg in Resources */,
+				F5C561B11969909700E0E0C5 /* NHSF Birmingham.jpg in Resources */,
+				F564D2B0197E948F00A8C9CD /* NHSF Logo 2014 Orange.jpg in Resources */,
+				F5C561C11969909700E0E0C5 /* NHSF Kent.jpg in Resources */,
+				F5C561D81969909700E0E0C5 /* NHSF Westminster.jpg in Resources */,
+				F5C561CD1969909700E0E0C5 /* NHSF NTU.jpg in Resources */,
+				F59026DE19786FF400BCEE37 /* Sewa at Universities.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B5ED38195C6BCE00F97D9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B5ED46195C6BCE00F97D9A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EB3F3111B12246D1BF60941B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBF8DB60F7BD455292DD3521 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8B5ED12195C6BCE00F97D9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C739E1197C14C8005E94B5 /* NHSFEnoughFoodForEveryoneViewController.m in Sources */,
+				F5C739F0197C19F3005E94B5 /* NHSFRachelBeckwithViewController.m in Sources */,
+				F5A2182B196F439400A9628C /* Event.m in Sources */,
+				F5DF368E19732C4900AF1365 /* NHSFSangeetOfTheSoulViewController.m in Sources */,
+				F8A2072C195F10B0008FB2AF /* CampusTableViewController.m in Sources */,
+				F5DF3682197325C200AF1365 /* NHSFHanumanChalisaViewController.m in Sources */,
+				F58BCF8319733895008DAFF2 /* NHSFImportantDatesViewController.m in Sources */,
+				F50A3ACB1973C8DD00791E87 /* NHSFPostersAndQuotesViewController.m in Sources */,
+				F5C739EA197C17EF005E94B5 /* NHSFShareCareJoyViewController.m in Sources */,
+				F5C739CC197C06CA005E94B5 /* NHSFWaterChangesEverythingViewController.m in Sources */,
+				F5D956CD197710B700CB62FD /* NHSFIntroductionViewController.m in Sources */,
+				F5C5618219697E2F00E0E0C5 /* NHSFChapterObject.m in Sources */,
+				F5C739ED197C17FF005E94B5 /* NHSFIndiasPoorViewController.m in Sources */,
+				F5C739E4197C1657005E94B5 /* NHSFShareMyDabbaViewController.m in Sources */,
+				F5D956C71976E08600CB62FD /* NHSFAboutUsTableViewController.m in Sources */,
+				F8A2073C195F1EB9008FB2AF /* LearningTableViewController.m in Sources */,
+				F5D956BD1976C4C500CB62FD /* NHSFBhagvadGitaViewController.m in Sources */,
+				F5DEC14E197F18AC00CACC1A /* Comms.m in Sources */,
+				F50A3AD81974AE3100791E87 /* NHSFWallPlannerViewController.m in Sources */,
+				F5D956D01977244200CB62FD /* NHSFNatcomTableViewController.m in Sources */,
+				F5DEC178197FC11300CACC1A /* DataStore.m in Sources */,
+				F5DEC15A197F206E00CACC1A /* NHSFUploadImageViewController.m in Sources */,
+				F58BCF8A19733D11008DAFF2 /* NHSFMustKnowMantrasViewController.m in Sources */,
+				F5C739C9197C0638005E94B5 /* NHSFSewaVideosTableViewController.m in Sources */,
+				F8B5ED26195C6BCE00F97D9A /* main.m in Sources */,
+				F52A5973197AA2CF000F9EF7 /* NHSFSewaSelfieViewController.m in Sources */,
+				F5C739F3197C1A15005E94B5 /* NHSFATrulySelflessBeingViewController.m in Sources */,
+				F59026E2197870E700BCEE37 /* NHSFUniversitySewaGuideViewController.m in Sources */,
+				F5DF368B19732A0B00AF1365 /* NHSFOmJaiJagdishViewController.m in Sources */,
+				F5DEC154197F1CA400CACC1A /* NHSFImageWallViewController.m in Sources */,
+				F50A3AD51973D81B00791E87 /* NHSFHumMagazineViewController.m in Sources */,
+				F58BCF8D19733FA2008DAFF2 /* NHSFMustReadViewController.m in Sources */,
+				F8A2073F195F2685008FB2AF /* SewaTableViewController.m in Sources */,
+				F5DEC14B197F15C600CACC1A /* NHSFFBLoginViewController.m in Sources */,
+				F8A20739195F1B33008FB2AF /* EventsTableViewController.m in Sources */,
+				F8B5ED2A195C6BCE00F97D9A /* NHSFAppDelegate.m in Sources */,
+				F5DEC175197FC08400CACC1A /* NSOperationQueue+SharedQueue.m in Sources */,
+				F5C739E7197C166A005E94B5 /* NHSFMakeTheHomelessViewController.m in Sources */,
+				F5C561DB196994A400E0E0C5 /* NHSFChapterImageViewController.m in Sources */,
+				F59026D51978649600BCEE37 /* NHSFSewaCampaignsTableViewController.m in Sources */,
+				F5A2182E196F460300A9628C /* NHSFEventDetailViewController.m in Sources */,
+				F5D956BA1976C2CB00CB62FD /* NHSFScripturesTableViewController.m in Sources */,
+				F5DF367F1973248F00AF1365 /* NHSFPrayersSectionTableViewController.m in Sources */,
+				F5D956C41976D17B00CB62FD /* NHSFHinduismMadeSimpleViewController.m in Sources */,
+				F5DEC157197F1FB400CACC1A /* UIImage+Scaling.m in Sources */,
+				F571D088197BC6780074D7A4 /* NHSFEventsOnAPlateViewController.m in Sources */,
+				F5C561E2196ADC8700E0E0C5 /* NHSFChapterDataViewController.m in Sources */,
+				F5C739C6197C0522005E94B5 /* NHSFSewaInspirationTableViewController.m in Sources */,
+				F5C5612B196971B200E0E0C5 /* NHSFAffiliatedChapterData.m in Sources */,
+				F5C739C3197C029B005E94B5 /* NHSFNationalCharityViewController.m in Sources */,
+				F50A3ACE1973D12B00791E87 /* NHSFFreshersPackTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B5ED36195C6BCE00F97D9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B5ED48195C6BCE00F97D9A /* NHSFAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8B5ED40195C6BCE00F97D9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8B5ED15195C6BCE00F97D9A /* NHSF (UK) */;
+			targetProxy = F8B5ED3F195C6BCE00F97D9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8B5ED22195C6BCE00F97D9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8B5ED23195C6BCE00F97D9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F8B5ED2B195C6BCE00F97D9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8B5ED2C195C6BCE00F97D9A /* Base */,
+			);
+			name = Main.storyboard;
+			path = NHSFApp;
+			sourceTree = "<group>";
+		};
+		F8B5ED44195C6BCE00F97D9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8B5ED45195C6BCE00F97D9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8B5ED49195C6BCE00F97D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8B5ED4A195C6BCE00F97D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8B5ED4C195C6BCE00F97D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A3356F6FB54BBCADF0A008 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: D Chudasama (HN7S6S2KPZ)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/Pods/Parse",
+					/Users/DivyeshBC/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NHSFApp/NHSF (UK)-Prefix.pch";
+				INFOPLIST_FILE = "NHSFApp/NHSF (UK)-Info.plist";
+				PRODUCT_NAME = "NHSF (UK)";
+				PROVISIONING_PROFILE = "7DA87A7C-C85D-42C1-A35A-9980B8AF544D";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F8B5ED4D195C6BCE00F97D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A3356F6FB54BBCADF0A008 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: D Chudasama (HN7S6S2KPZ)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/Pods/Parse",
+					/Users/DivyeshBC/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NHSFApp/NHSF (UK)-Prefix.pch";
+				INFOPLIST_FILE = "NHSFApp/NHSF (UK)-Info.plist";
+				PRODUCT_NAME = "NHSF (UK)";
+				PROVISIONING_PROFILE = "7DA87A7C-C85D-42C1-A35A-9980B8AF544D";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F8B5ED4F195C6BCE00F97D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NHSFApp.app/NHSFApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NHSFApp/NHSFApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NHSFAppTests/NHSF (UK)Tests-Info.plist";
+				PRODUCT_NAME = "NHSF (UK)Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F8B5ED50195C6BCE00F97D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NHSFApp.app/NHSFApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NHSFApp/NHSFApp-Prefix.pch";
+				INFOPLIST_FILE = "NHSFAppTests/NHSF (UK)Tests-Info.plist";
+				PRODUCT_NAME = "NHSF (UK)Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8B5ED11195C6BCE00F97D9A /* Build configuration list for PBXProject "NHSF (UK)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B5ED49195C6BCE00F97D9A /* Debug */,
+				F8B5ED4A195C6BCE00F97D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B5ED4B195C6BCE00F97D9A /* Build configuration list for PBXNativeTarget "NHSF (UK)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B5ED4C195C6BCE00F97D9A /* Debug */,
+				F8B5ED4D195C6BCE00F97D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B5ED4E195C6BCE00F97D9A /* Build configuration list for PBXNativeTarget "NHSF (UK)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B5ED4F195C6BCE00F97D9A /* Debug */,
+				F8B5ED50195C6BCE00F97D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8B5ED0E195C6BCE00F97D9A /* Project object */;
+}
